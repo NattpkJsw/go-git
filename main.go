@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+func sum(a, b int) int {
+	return a + b
+}
 func main() {
-	fmt.Println("Helloo World")
+	fmt.Println(sum(12, 54))
 }
